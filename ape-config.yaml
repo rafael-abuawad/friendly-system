@@ -1,0 +1,17 @@
+name: friendly-system
+
+plugins:
+  - name: vyper
+    version: v0.3.7
+  - name: infura
+
+vyper:
+  evm_version: paris
+
+geth:
+  avalanche:
+    mainnet:
+      uri: https://avalanche-mainnet.infura.io/v3/4586ebbb9ece4f62b4755412a798bae7
+    fuji:
+      uri: https://avalanche-fuji.infura.io/v3/4586ebbb9ece4f62b4755412a798bae7
+      gas_limit: max
